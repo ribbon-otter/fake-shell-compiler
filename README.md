@@ -3,7 +3,7 @@ Shell scripts can be useful for cheap automation at the possible cost of safety.
 
 **Fake Shell Compiler** is not that. While at first glance it may appear to compile shell scripts by creating executable binaries, it actually does nothing of the sort. Fake Shell Compiler embeds the source into a binary with a single call `/bin/sh` to execute that string.
 
-Fake Shell Compiler is even more a fake compiler than the utilities like (http://py2exe.org/)[py2exe] which bundle the interpreter into the binary, as Fake Shell Compiler outputs files with all the dependencies of the original files. It is effectively the binary equivalent of a shebang.
+Fake Shell Compiler is even more a fake compiler than the utilities like [py2exe](http://py2exe.org/) which bundle the interpreter into the binary, as Fake Shell Compiler outputs files with all the dependencies of the original files. It is effectively the binary equivalent of a shebang.
 
 I do not know of a single advantage this "compiler" has over a shebang. Thus, I recommend against using Fake Shell Compiler for any purpose besides personal amusement.
 
